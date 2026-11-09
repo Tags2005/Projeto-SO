@@ -1,8 +1,9 @@
 ﻿using Projeto_SO.Config_PCB;
-
-public interface IPoliticaSubstituicaoPagina
+namespace Projeto_SO.Config_GerencMem
 {
-    int SelecionarMolduraVitima();
-    void RegistrarUsoMoldura(int indiceMoldura);
-    void RemoverMoldura(int indiceMoldura); 
+    public interface IPoliticaSubstituicaoPagina
+    {
+        int SelecionarMolduraVitima(Moldura[] molduras);
+        void RegistrarUsoMoldura(int indiceMoldura);
+    }
 }

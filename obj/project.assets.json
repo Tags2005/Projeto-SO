@@ -8,24 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Thayná Adrielly\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Thayna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thayná Adrielly\\source\\repos\\Projeto-SO1\\Projeto-SO1.csproj",
+      "projectUniqueName": "C:\\Users\\Thayna\\source\\repos\\Projeto-SO\\Projeto-SO1.csproj",
       "projectName": "Projeto-SO1",
-      "projectPath": "C:\\Users\\Thayná Adrielly\\source\\repos\\Projeto-SO1\\Projeto-SO1.csproj",
-      "packagesPath": "C:\\Users\\Thayná Adrielly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thayná Adrielly\\source\\repos\\Projeto-SO1\\obj\\",
+      "projectPath": "C:\\Users\\Thayna\\source\\repos\\Projeto-SO\\Projeto-SO1.csproj",
+      "packagesPath": "C:\\Users\\Thayna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thayna\\source\\repos\\Projeto-SO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Thayná Adrielly\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Thayna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,7 +47,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "11.0.100"
     },
     "frameworks": {
       "net10.0": {
@@ -74,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-rc.3.26522.148/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

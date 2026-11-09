@@ -1,3 +1,4 @@
+
 namespace Projeto_SO.Config_PCB
 {
     //Aqui é realizada a verificação dos endereços virtuais (número da página)
@@ -27,5 +28,12 @@ namespace Projeto_SO.Config_PCB
             entradas[numeroPagina] = new EntradaTabelaPaginas(numeroMoldura, presente);
         }
 
+        public void DesmapearPagina(int numeroPagina)
+        {
+            if (entradas.ContainsKey(numeroPagina))
+            {
+                entradas[numeroPagina].Presente = false;
+            }
+        }
     }
 }
