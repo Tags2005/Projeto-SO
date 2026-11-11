@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Projeto_SO.Config_PCB;
 using Projeto_SO.Config_GerencMem;
+using Projeto_SO.Config_PCB.EnumEstadoThread;
 
 namespace Projeto_SO
 {
@@ -68,14 +69,15 @@ namespace Projeto_SO
         {
             if (ThreadEmExecucao == null) return;
 
-            bool hit = GerencMemoria.AcessarMemoria(ThreadEmExecucao.ProcessoBase, enderecoLogico);
+           // bool hit = GerencMemoria.AcessarMemoria(ThreadEmExecucao.ProcessoBase, enderecoLogico);
             Metricas.RegistrarAcessoMemoria();
 
-            if (!hit)
+            /*if (!hit)
             {
                 Metricas.RegistrarFaltaPagina();
                 BloquearThreadPorFaltaPagina(ThreadEmExecucao, GerencMemoria.TempoAtendimentoFaltaPagina);
             }
+            */
         }
 
         public void AvisarClock(int novosPassos = 1)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thayna\\source\\repos\\Projeto-SO\\Projeto-SO1.csproj": {}
+    "C:\\Users\\Thayna\\Desktop\\simulacao_so\\Projeto-SO1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thayna\\source\\repos\\Projeto-SO\\Projeto-SO1.csproj": {
+    "C:\\Users\\Thayna\\Desktop\\simulacao_so\\Projeto-SO1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thayna\\source\\repos\\Projeto-SO\\Projeto-SO1.csproj",
+        "projectUniqueName": "C:\\Users\\Thayna\\Desktop\\simulacao_so\\Projeto-SO1.csproj",
         "projectName": "Projeto-SO1",
-        "projectPath": "C:\\Users\\Thayna\\source\\repos\\Projeto-SO\\Projeto-SO1.csproj",
+        "projectPath": "C:\\Users\\Thayna\\Desktop\\simulacao_so\\Projeto-SO1.csproj",
         "packagesPath": "C:\\Users\\Thayna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thayna\\source\\repos\\Projeto-SO\\obj\\",
+        "outputPath": "C:\\Users\\Thayna\\Desktop\\simulacao_so\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thayna\\AppData\\Roaming\\NuGet\\NuGet.Config",

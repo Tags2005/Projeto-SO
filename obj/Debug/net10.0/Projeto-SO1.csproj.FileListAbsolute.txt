@@ -1,0 +1,17 @@
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-SO1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-SO1.AssemblyInfoInputs.cache
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-SO1.AssemblyInfo.cs
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-SO1.csproj.CoreCompileInputs.cache
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-SO1.sourcelink.json
+C:\Users\Thayna\Desktop\simulacao_so\bin\Debug\net10.0\Projeto-SO1.exe
+C:\Users\Thayna\Desktop\simulacao_so\bin\Debug\net10.0\Projeto-SO1.deps.json
+C:\Users\Thayna\Desktop\simulacao_so\bin\Debug\net10.0\Projeto-SO1.runtimeconfig.json
+C:\Users\Thayna\Desktop\simulacao_so\bin\Debug\net10.0\Projeto-SO1.runtimeconfig.dev.json
+C:\Users\Thayna\Desktop\simulacao_so\bin\Debug\net10.0\Projeto-SO1.dll
+C:\Users\Thayna\Desktop\simulacao_so\bin\Debug\net10.0\Projeto-SO1.pdb
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-SO1.dll
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\refint\Projeto-SO1.dll
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-SO1.pdb
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-SO1.genruntimeconfig.cache
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\ref\Projeto-SO1.dll
+C:\Users\Thayna\Desktop\simulacao_so\obj\Debug\net10.0\Projeto-.CF0C3BFF.Up2Date
