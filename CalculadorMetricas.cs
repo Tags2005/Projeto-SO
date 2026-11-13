@@ -5,11 +5,20 @@ using System.Text;
 
 namespace Projeto_SO
 {
+    // Módulo estatístico da simulação. Acumula contadores e calcula métricas de desempenho,
+    // como taxa de faltas de página, trocas de contexto e tempo médio de retorno
     public class CalculadorMetricas
     {
+        //Contador do número total de acessos à memória realizados pelas threads
         public int TempoTotalAcessosMemoria { get; private set; }
+
+        //Tempo total acumulado de sobrecarga (overhead) decorrente das trocas de contexto
         public int TempoSobrecargaTrocaContexto { get; private set; }
+
+        //Contador total de Faltas de Página (Page Faults) ocorridas 
         public int QuantidadeFaltasPaginas { get; private set; }
+
+        //Contador do número total de trocas de contexto de CPU efetuadas
         public int QuantidadeTrocaContextos { get; private set; }
 
         // Listas para ajudar a realizar o cálculo das médias finais!
