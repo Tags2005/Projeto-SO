@@ -25,6 +25,7 @@ namespace Projeto_SO
             Estado = EstadoProcesso.Novo;
             TabelaPaginas = new TabelaPaginas();
             Threads = new List<TCB>();
+            TabelaArquivosAbertos = new Dictionary<int, object>();
         }
 
     }
