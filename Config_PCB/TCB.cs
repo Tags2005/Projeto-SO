@@ -1,5 +1,6 @@
-using Projeto_SO.Config_PCB.EnumEstadoThread;
 
+using Projeto_SO.Config_PCB.Enum;
+using Projeto_SO.Config_PCB.EnumEstadoThread;
 namespace Projeto_SO.Config_PCB
 {
     // Bloco de Controle de Thread TCB - representa a menor unidade de processamento
@@ -17,7 +18,7 @@ namespace Projeto_SO.Config_PCB
         public int SurtoCpuRestante { get; set; }
 
         //Contador de programa(PC) que aponta para a próxima instrução a ser executada
-        public int ContadorPrograma { get; private set; }
+        public int ContadorPrograma { get; set; }
 
         //Nível de prioridade da thread para o escalonamento
         public int Prioridade { get; set; }
@@ -26,7 +27,7 @@ namespace Projeto_SO.Config_PCB
         public RegistradoresSimulados Registradores { get; private set; }
 
         //Construtor
-        public TCB(int idThread, PCB processoBase)
+        public TCB(int idThread, PCB processoBase, int surtoCpuRestante = 0, int prioridade = 0)
         {
             IdThread = idThread;
             ProcessoBase = processoBase;
