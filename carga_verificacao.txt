@@ -1,0 +1,17 @@
+# Arquivo de Carga de Trabalho Exemplo
+# Formato: PROCESSO <IdProcesso> <InstanteCriacao>
+# Formato: THREAD <IdThread> <IdProcesso> <Prioridade>
+# Formato: INSTR <CPU|MEM|ES> <Valor/Endereço/ID> [Qtd] [NaoBloqueante]
+
+PROCESSO 1 0
+THREAD 101 1 2
+INSTR CPU 3
+INSTR MEM 0
+INSTR ES 1 2 false
+INSTR CPU 4
+
+PROCESSO 2 1
+THREAD 201 2 1
+INSTR CPU 2
+INSTR MEM 16
+INSTR CPU 3

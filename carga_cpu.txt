@@ -1,0 +1,18 @@
+# Carga de Trabalho Limitada por CPU
+# Formato: PROCESSO <IdProcesso> <InstanteCriacao>
+# Formato: THREAD <IdThread> <IdProcesso> <Prioridade>
+# Formato: INSTR <CPU|MEM|ES> <Valor/Endereço/ID> [Qtd] [NaoBloqueante]
+
+PROCESSO 1 0
+THREAD 101 1 1
+INSTR CPU 8
+INSTR CPU 5
+
+PROCESSO 2 1
+THREAD 201 2 2
+INSTR CPU 6
+INSTR CPU 4
+
+PROCESSO 3 2
+THREAD 301 3 3
+INSTR CPU 10

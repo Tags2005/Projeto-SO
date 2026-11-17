@@ -1,0 +1,14 @@
+# Carga de Trabalho Limitada por E/S
+
+PROCESSO 1 0
+THREAD 101 1 2
+INSTR CPU 1
+INSTR ES 1 3 false
+INSTR CPU 1
+INSTR ES 2 2 false
+
+PROCESSO 2 0
+THREAD 201 2 1
+INSTR CPU 1
+INSTR ES 1 2 false
+INSTR CPU 2
